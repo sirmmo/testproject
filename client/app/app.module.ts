@@ -24,6 +24,7 @@ import { LoginComponent } from './pages/login/login.component';
 /* START MY VIEWS IMPORTS*/
 // Do not edit this comment content, it will be overwritten in next Skaffolder generation
 import { HomeComponent } from './pages/home/home.component';
+import { Test123ListComponent } from './pages/test123list/test123list.component';
 import { A2EditComponent } from './pages/a2edit/a2edit.component';
 import { A2ListComponent } from './pages/a2list/a2list.component';
 
@@ -78,6 +79,7 @@ import { MailValidator } from './directives/mail-validate.directive';
     /* START DECLARATIONS */
 // Do not edit this comment content, it will be overwritten in next Skaffolder generation
     HomeComponent,
+    Test123ListComponent,
     A2EditComponent,
     A2ListComponent,
  /* END DECLARATIONS */

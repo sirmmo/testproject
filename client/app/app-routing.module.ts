@@ -5,6 +5,7 @@ import { CanActivate, RouterModule, Routes } from '@angular/router';
 /* START MY VIEWS IMPORT */
 // Do not edit this comment content, it will be overwritten in next Skaffolder generation
 import { HomeComponent} from './pages/home/home.component';
+import { Test123ListComponent} from './pages/test123list/test123list.component';
 import { A2EditComponent} from './pages/a2edit/a2edit.component';
 import { A2ListComponent} from './pages/a2list/a2list.component';
 
@@ -26,6 +27,7 @@ const routes: Routes = [
     /* START MY VIEWS */
 
     { path: 'home',  component: HomeComponent , canActivate: [AuthGuard] },
+    { path: 'test123s',  component: Test123ListComponent , canActivate: [AuthGuard] },
     { path: 'a2s/:id',  component: A2EditComponent , canActivate: [AuthGuard] },
     { path: 'a2s',  component: A2ListComponent , canActivate: [AuthGuard] },
 
